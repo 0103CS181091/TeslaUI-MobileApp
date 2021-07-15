@@ -14,7 +14,7 @@ const CarsList = (props) => {
         keyExtractor={(item) => item.name} //newly added
         showsVerticalScrollIndicator={false}
         snapToAlignment={'start'}
-        decelerationRate={'fast'}
+        decelerationRate={0.63}
         snapToInterval={Dimensions.get('screen').height}
       />
     </View>
